@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.my-picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 5px;
+  border: 5px solid #040714;
+  position: relative;
+  z-index: 1;
+}
+
+.about {
+  width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-block {
+  height: 70px;
+  width: 70px;
+  display: block;
+  position: relative;
+  margin-right: 20px;
+}
+
+.right-block {
+  height: 70px;
+  width: 350px;
+  display: block;
+  position: relative;
+  margin-left: 10px;
+}
+
+.heading-block {
+  margin-top: 0px;
+}
+
+.year-block {
+  margin-top: -15px;
+}
+
+.bar {
+  margin-top: -20px;
+  height: 30px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: block;
+  height: 100%;
+}
+
+.block {
+  height: 75px;
+  width: 400px;
+  margin-top: 5px;
+  position: relative;
+  display: flex;
+}
+
+.split-line {
+  height: 190px;
+  width: 50px;
+  background-color: #040714;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-left: 80px;
+  z-index: 0;
+}
+
+.page {
+  background-color: #040714;
+  min-height: 100vh;
+  width: 70vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.head {
+  height: 160px;
+  width: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c2d2fe;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+h3, h2, p {
+  color: #c2d2fe;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #c2d2fe;
+}
+
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
