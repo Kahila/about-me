@@ -4,7 +4,7 @@ const Skills = (props ?: any) => {
     return (
         <div className='block'>
             <div className='left-block'>
-                <img src={props.image} className="icon" alt={props.language} />
+                {/* <img src={props.image} className="icon" alt={props.language} /> */}
             </div>
             <div className='right-block'>
                 <b><p className='heading-block'>{props.language} </p></b>
